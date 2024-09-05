@@ -1,0 +1,21 @@
+.main { 
+  display: grid;
+  grid-template-columns: 2fr 1.7fr;
+  align-items: center;
+  font-size: 1vw;
+  word-spacing: .2cap;
+  gap: 10px;
+  height: 100%;
+  min-height: 100vh;
+}
+.left{
+  background-color: rgba(97, 97, 97, 0.82);
+  text-align: center;
+  padding: 3%;
+  margin-left: 15px;
+  border-radius: 20px;
+  height: 80vh;
+  word-spacing: 2px;
+  font-weight: 100; /* Makes the text thin */
+  font-size: 1rem; 
+}
